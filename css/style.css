@@ -1,0 +1,29 @@
+/*on all types of screens allow to apply a screen resolution or browser viewport to make a responsive website,)*/
+@media screen and (max-width:1280PX){
+
+	/*when scrren resolutions applies a screen or browser resolution between 1024 and 1280 pixels*/
+	@media all and (min-width:1024px) and(max-width:1280PX){
+	
+		/*definites the orientation in tablet or phone applied correctly to those browsers*/
+
+		@media all and (orientation:portrait ) {
+			
+		}
+	}
+}
+
+button{
+	
+	background-color: rgb(55, 105, 14) !important;
+	color: chartreuse !important;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body
+{
+	background-image: 
+	url("../HTML/php/js/img/rouge-gorge-oiseau-101828.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
